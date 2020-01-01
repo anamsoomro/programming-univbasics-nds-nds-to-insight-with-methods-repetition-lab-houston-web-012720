@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  list = source
+  list = source[:name]
 end
 
 def total_gross(source)
