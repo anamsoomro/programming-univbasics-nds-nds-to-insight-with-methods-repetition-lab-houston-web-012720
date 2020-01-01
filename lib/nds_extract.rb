@@ -30,7 +30,7 @@ def list_of_directors(source)
   list=[]
   column = 0
   while column < source.length do 
-    list >> source[column][:name]
+    list << source[column][:name]
     column += 1
   end
   list
