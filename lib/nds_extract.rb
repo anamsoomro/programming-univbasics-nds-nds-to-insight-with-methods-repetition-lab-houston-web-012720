@@ -28,7 +28,7 @@ end
 def list_of_directors(source)
   # Write this implementation
   list=[]
-  column = 0s
+  column = 0
   while column < source.length do 
     list >> source[column][:name]
     column += 1
